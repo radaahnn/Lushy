@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lush",
+  "version": "${version}",
+  "name": "Lushness",
+  "icon": "assets/lush/icon.png",
+  "description": "Adds immersive vegetation and rock formations to make the world feel more lush and alive.",
+  "authors": ["RhysR6S"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.rhysr6s.lush.fabric.LushFabric"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "fabric-api": "*"
+  }
+}
